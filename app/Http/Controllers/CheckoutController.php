@@ -43,7 +43,7 @@ class CheckoutController extends Controller
             'city'         => 'required|max:255',
             'postal_code'  => 'required|numeric|digits:8',
             'country'      => 'required|max:255',
-            'mobile'       => 'required|numeric|max:20',
+            'mobile'       => 'required|numeric|digits:11',
             'cod'          => 'required|boolean'
         ]);
 
