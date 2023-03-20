@@ -30,3 +30,4 @@ Context: Online shopping for Metaverse. You can buy lands and avatars.
 
 - [ ] Tests
 - [ ] Implement integration with payment plataforms
+- [ ] Implement control of stock
