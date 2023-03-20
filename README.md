@@ -28,5 +28,5 @@ Context: Online shopping for Metaverse. You can buy lands and avatars.
 
 ## TODO
 
-[] Tests
-[] Implement integration with payment plataforms
+- [ ] Tests
+- [ ] Implement integration with payment plataforms
