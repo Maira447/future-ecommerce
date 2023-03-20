@@ -41,8 +41,6 @@ Context: Online shopping for Metaverse. You can buy lands and avatars.
 
 <img width="1508" alt="image" src="https://user-images.githubusercontent.com/36938892/226482372-8976cca3-95da-4b27-be82-cf5ac21f9008.png">
 
-<img width="1506" alt="image" src="https://user-images.githubusercontent.com/36938892/226482483-58c9399c-2056-4eca-87f4-69b57a0676b4.png">
-
 # Internal User
 
 <img width="1510" alt="image" src="https://user-images.githubusercontent.com/36938892/226482773-7a6e9fac-9993-4fb6-8b27-8bb6e855caf9.png">
