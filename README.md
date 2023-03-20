@@ -24,6 +24,7 @@ Context: Online shopping for Metaverse. You can buy lands and avatars.
 - In their account settings, user can track order and payment status.
 - All orders placed on the platform can be managed by ADMs on their internal dashboard.
 - The admin user has a dashboard, transaction history, list of system users, product CRUD, category CRUD and order history.
+- System administrators can update order and financial transaction status.
 
 ## TODO
 
