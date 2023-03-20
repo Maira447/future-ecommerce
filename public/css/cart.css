@@ -3,6 +3,21 @@ table{
     width: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+table {
+    border-spacing: 0;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  tr:first-child td:first-child { border-top-left-radius: 10px; }
+  tr:first-child td:last-child { border-top-right-radius: 10px; }
+  
+  tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+  tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+  
 thead{
     color: white;
     background-color: var(--head_col);
@@ -15,6 +30,7 @@ td:last-child{
 }
 table input{
     width: 3em;
+    border-radius: 5px;
 }
 
 .product{
@@ -24,6 +40,7 @@ table input{
     width: 100px;
     margin-right: 5px;
     margin-bottom: 7px;
+    border-radius: 50px;
 }
 .details{
     align-self: flex-start;
@@ -68,3 +85,9 @@ table input{
         width: 100%;
     }
 }
+
+
+.m-0 {
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+

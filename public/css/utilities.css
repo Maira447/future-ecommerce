@@ -34,7 +34,7 @@ ul {
 
 .ml-auto {
     margin-left: auto;
-    margin-top: auto;
+    /* margin-top: auto; */
 }
 
 a {

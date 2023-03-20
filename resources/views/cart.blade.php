@@ -11,7 +11,7 @@
         --------------------}}
             <main  class="_container">
                 @if (count($products))
-                <table cellspacing="0">
+                <table class="table" cellspacing="0">
                     <thead>
                         <tr>
                             <td>Produto</td>

@@ -25,7 +25,7 @@
                                 </form>
                             @endauth
                             @guest
-                                <button class="cta" onclick="addToCart({{$product->id}})" data-product="{{ $product->id }}">Add to Cart</button>
+                                <button class="cta" onclick="addToCart({{$product->id}})" data-product="{{ $product->id }}">Adicionar ao carrinho</button>
                             @endguest
                         @endif
                     </div>
