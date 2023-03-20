@@ -25,7 +25,6 @@ Context: Online shopping for Metaverse. You can buy lands and avatars.
 - All orders placed on the platform can be managed by ADMs on their internal dashboard.
 - The admin user has a dashboard, transaction history, list of system users, product CRUD, category CRUD and order history.
 
-
 ## TODO
 
 - [ ] Tests
@@ -33,3 +32,44 @@ Context: Online shopping for Metaverse. You can buy lands and avatars.
 - [ ] Implement control of stock
 - [ ] Implement CRM
 - [ ] Implement several integrations 
+
+## Screenshots of the project
+
+# Landing Page
+
+<img width="1508" alt="image" src="https://user-images.githubusercontent.com/36938892/226482372-8976cca3-95da-4b27-be82-cf5ac21f9008.png">
+
+<img width="1506" alt="image" src="https://user-images.githubusercontent.com/36938892/226482483-58c9399c-2056-4eca-87f4-69b57a0676b4.png">
+
+# Login 
+
+<img width="744" alt="image" src="https://user-images.githubusercontent.com/36938892/226482577-e82fecf8-2f3d-4ec2-adf6-ca34526000b2.png">
+
+# Internal User
+
+<img width="1510" alt="image" src="https://user-images.githubusercontent.com/36938892/226482773-7a6e9fac-9993-4fb6-8b27-8bb6e855caf9.png">
+
+# Cart
+
+<img width="1507" alt="image" src="https://user-images.githubusercontent.com/36938892/226482861-27aa77ca-3aea-4e29-9c07-ec7657d0b57c.png">
+
+<img width="1508" alt="image" src="https://user-images.githubusercontent.com/36938892/226483106-6e6cea5a-be16-4c7c-8cf8-d13bbc975697.png">
+
+# Email
+
+<img width="574" alt="image" src="https://user-images.githubusercontent.com/36938892/226483166-b3e12c02-ecf1-4e41-a922-050db27e586f.png">
+
+# Adm
+
+<img width="1500" alt="image" src="https://user-images.githubusercontent.com/36938892/226483213-ff08d6b4-1849-451d-b714-a905e7e70f9b.png">
+
+<img width="1508" alt="image" src="https://user-images.githubusercontent.com/36938892/226483235-957d9976-f894-479c-ba2a-f6da441ed90e.png">
+
+<img width="1502" alt="image" src="https://user-images.githubusercontent.com/36938892/226483256-e5756450-a78a-44bd-8e1d-46d8d1db7c05.png">
+
+<img width="1508" alt="image" src="https://user-images.githubusercontent.com/36938892/226483287-f23d3d28-e87e-4f8d-9429-c96fe44c203a.png">
+
+<img width="1505" alt="image" src="https://user-images.githubusercontent.com/36938892/226483310-43057e1f-53d2-445d-855e-773c032584af.png">
+
+
+
