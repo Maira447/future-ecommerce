@@ -51,7 +51,7 @@ Context: Online shopping for Metaverse. You can buy lands and avatars.
 
 # Cart
 
-<img width="1507" alt="image" src="https://user-images.githubusercontent.com/36938892/226482861-27aa77ca-3aea-4e29-9c07-ec7657d0b57c.png">
+<img width="1509" alt="image" src="https://user-images.githubusercontent.com/36938892/226485142-5196717b-ae4a-468d-bcad-75b72afbc6e2.png">
 
 <img width="1508" alt="image" src="https://user-images.githubusercontent.com/36938892/226483106-6e6cea5a-be16-4c7c-8cf8-d13bbc975697.png">
 
