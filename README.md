@@ -1,5 +1,5 @@
 # future-ecommerce
-Responsive project with Laravel and PHP 8 to implement an E-commerce.
+Responsive project with Laravel, PHP 8 and Blade to implement an E-commerce.
 Context: Online shopping for Metaverse. You can buy lands and avatars.
 
 ## Execution:
