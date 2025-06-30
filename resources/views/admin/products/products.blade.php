@@ -18,10 +18,10 @@
                 <thead>
                     <tr>
                         <td></td>
-                        <td>Produto ({{count($products)}})</td>
-                        <td>Preço</td>
-                        <td>Quantidade de estoque</td>
-                        <td>Desconto</td>
+                        <td>Products({{count($products)}})</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Discount</td>
                         <td colspan="2">Ações</td>
                     </tr>
                 </thead>

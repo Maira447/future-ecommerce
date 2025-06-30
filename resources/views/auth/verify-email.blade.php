@@ -7,14 +7,14 @@
     @endif
      
     <p class="m-0">
-        Antes de começar, verifique o seu e-mail clicando no link que enviamos para você. Se você não recebeu o email, reenviaremos para você novamente.
+        Verify Email
     </p>
-    <p>Confira seu inbox <strong>{{ auth()->user()->email }}</strong></p>
+    <p>Check your inbox <strong>{{ auth()->user()->email }}</strong></p>
         
     <div class="flex_align_center">
         <form method="POST" action="{{ route('verification.send') }}">
             @csrf
-            <input type="submit" value="ENVIAR NOVAMENTE">
+            <input type="submit" value="Verified">
         </form>
         
         <form method="POST" id="logout" action="{{ route('logout') }}">

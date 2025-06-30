@@ -18,7 +18,7 @@
              <div class="close-btn" onclick="t_aside()"><span class=" material-icons">close</span></div>
             <div class="filter">
                 <div class="category">
-                    <h3>Categorias</h3>
+                    <h3>Categories</h3>
                     <ul>
                         @foreach ($category as $item)
                             <li style="color:{{$item->id == $cate ? '#3da8f3':''}}" onclick="updateQuery('category', {{$item->id}})">{{ ucfirst($item->title) }}</li>   
@@ -27,10 +27,10 @@
                 </div>
             </div>
             <div class="sort">
-                <h3>Ordenação</h3>
+                <h3>Orders</h3>
                 <ul>
-                    <li style="color:{{'ASC' == $sort ? '#3da8f3':''}}" onclick="updateQuery('sort', 'ASC')">Preço: ordenar pelo menor</li>
-                    <li style="color:{{'DESC' == $sort ? '#3da8f3':''}}" onclick="updateQuery('sort', 'DESC')">Preço: ordenar pelo maior</li>
+                    <li style="color:{{'ASC' == $sort ? '#3da8f3':''}}" onclick="updateQuery('sort', 'ASC')">Price: sort by lowest</li>
+                    <li style="color:{{'DESC' == $sort ? '#3da8f3':''}}" onclick="updateQuery('sort', 'DESC')">Price: sort by highest</li>
                 </ul>
             </div>
          </aside>

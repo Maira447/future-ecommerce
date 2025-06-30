@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'failed' => 'Credenciais inválidas',
-    'password' => 'A senha está incorreta',
+    'failed' => 'Credencials inválid',
+    'password' => 'Invalid Password',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
 ];

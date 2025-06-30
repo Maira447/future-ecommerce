@@ -15,22 +15,22 @@ class CategorySeeder extends Seeder
     public function run()
     {
         Category::create([
-            'title' => 'Terrenos',
-            'image' => 'categories/yTuvr6Ba81YVNEpJzPQ5hePQgdnQb6zNqGiEGiSf.jpg'
+            'title' => ' Box Sizes',
+            'image' => 'categories/box.jpg'
         ]);
 
         Category::create([
-            'title' => 'Avatares',
-            'image' => 'categories/oFUTu8T5MBCW5Lr5mRETIdGgPI85sDGbAO6teGSG.webp'
+            'title' => 'Box Features',
+            'image' => 'categories/box.jpg'
         ]);
 
         Category::create([
-            'title' => 'Softwares',
+            'title' => 'Control Systems',
             'image' => 'categories/qzyuavHPgE0S2fugAYXvskuFUgCAHFztwhC1a1au.webp'
         ]);
 
         Category::create([
-            'title' => 'NFTs',
+            'title' => ' Box Accessories',
             'image' => 'categories/2L6cqFuTXC84Fde5SIbBO9SG5ZCvIJLIgelaVdzI.jpg'
         ]);
     }

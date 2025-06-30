@@ -6,14 +6,14 @@
     </x-slot>
 
     <div class="_container">
-        <h1>Usuários</h1><br>
+        <h1>Users</h1><br>
         <div style="overflow-x: auto">
             <table style="width: 100%;min-width:650px" class="card">
                 <thead>
                     <tr>
-                        <th>Usuário({{count($users)}})</th>
+                        <th>Users({{count($users)}})</th>
                         <th>Email</th>
-                        <th>Email verificado</th>
+                        <th>Email verification</th>
                         <th>ADM</th>
                     </tr>
                 </thead>

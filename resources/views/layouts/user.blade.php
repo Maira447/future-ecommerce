@@ -12,7 +12,7 @@
     {{ $style ?? '' }}
     
     <link rel="shortcut icon" href="{{ asset('img/logo.png') }}" />
-    <title>Shopping do Futuro</title>
+    <title>Online Shopping</title>
 
     <script src="{{ asset('js/user/utilities.js') }}" defer></script>
 
@@ -61,13 +61,13 @@
                     <li>
                         <a class="flex_align" href="{{ route('user.orders.index') }}">
                             <span class="material-icons">shopping_cart</span>
-                            <div>Pedidos</div>
+                            <div>Orders</div>
                         </a>
                     </li>
                     <li>
                         <a class="flex_align" href="{{ route('user.ship_info') }}">
                             <span class="material-icons">credit_card</span>
-                            <div>Informações</div>
+                            <div>Information</div>
                         </a>
                     </li>
                 </ul>

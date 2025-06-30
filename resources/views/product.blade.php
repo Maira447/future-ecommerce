@@ -13,19 +13,19 @@
                         <h1>{{ucfirst($product->title)}}</h1>
                         <h2>{{"$".$product->price}}</h2>
                         <p>Categoria: {{$product->category->title}}</p>
-                        <p>{{ $product->stock_quantity > 0 ? "Em estoque" : "Fora de estoque" }}</p>
+                        <p>{{ $product->stock_quantity > 0 ? "" : "Fora de estoque" }}</p>
                         <p>{{ucfirst($product->about)}}</p>
                         @if ($isAdded)
-                            <button class="cta" onclick="window.location = '{{ route('cart') }}'">Vá para o carrinho</button>
+                            <button class="cta" onclick="window.location = '{{ route('cart') }}'">Add to cart</button>
                         @else
                             @auth
                                 <form action="{{ route('atc', ['product'=>$product->id]) }}" method="post">
                                     @csrf
-                                    <button type="submit" class="cta">Adicionar ao carrinho</button>
+                                    <button type="submit" class="cta"></button>
                                 </form>
                             @endauth
                             @guest
-                                <button class="cta" onclick="addToCart({{$product->id}})" data-product="{{ $product->id }}">Adicionar ao carrinho</button>
+                                <button class="cta" onclick="addToCart({{$product->id}})" data-product="{{ $product->id }}">Add to Cart</button>
                             @endguest
                         @endif
                     </div>

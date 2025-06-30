@@ -14,8 +14,8 @@
                 <table class="table" cellspacing="0">
                     <thead>
                         <tr>
-                            <td>Produto</td>
-                            <td>Quantidade</td>
+                            <td>Products</td>
+                            <td>Quantity</td>
                             <td>Subtotal</td>
                         </tr>
                     </thead>
@@ -27,14 +27,14 @@
                                         <img class="d-b" src="{{ asset('storage/'.$product->image) }}" alt="{{ $product->title }}">
                                         <div class="details">
                                             <a href="{{route('product', ['product' => $product->id])}}" class="m-0">{{ ucfirst($product->title) }}</a>
-                                            <p>Preço: ${{$product->price}}</p>
+                                            <p>Price: ${{$product->price}}</p>
                                             @auth
                                                 <form action="{{ route('rfc', ['product' => $product->id]) }}" method="post">
                                                     @csrf
                                                     @method('DELETE')
                                                 </form>
                                             @endauth
-                                            <a onclick="removeCart(this, {{$product->id}}, {{ auth()->check() }})" class="remove" href="#">Remover</a>
+                                            <a onclick="removeCart(this, {{$product->id}}, {{ auth()->check() }})" class="remove" href="#">Remove</a>
                                         </div>
                                     </div>
                                 </td>
@@ -58,7 +58,7 @@
                         <td id="subtotal"></td>
                     </tr>
                     <tr>
-                        <td>Taxas</td>
+                        <td>Tax</td>
                         <td>$0</td>
                     </tr>
                     <tr>
@@ -68,7 +68,7 @@
                     <tr>
                         <td colspan="2">
                             <div class="checkout">
-                                <a href="{{ route('checkout') }}">Finalizar compra</a>
+                                <a href="{{ route('checkout') }}">Confirm</a>
                             </div>
                         </td>
                     </tr>
@@ -79,9 +79,9 @@
                     </div>
                 @endif
             </main>
-            <x-modal title="Remover Item" ok="REMOVER">
+            <x-modal title="Remover Item" ok="REMOVE">
                 <x-slot name="description">
-                    Você tem certeza que quer remover esse item?
+                    Do you want to remove the item
                 </x-slot>
             </x-modal>
     {{--------------------- 

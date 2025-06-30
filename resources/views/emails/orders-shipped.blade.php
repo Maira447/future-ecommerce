@@ -24,7 +24,7 @@ Frete: ${{ $extra =  $order->grand_total < 10 ? 5 : 0 }}
 ```
 **Total da entrega:** &nbsp; &nbsp; &nbsp; &nbsp; **${{ $order->grand_total + $extra }}**
 ___
-Rastreie seu pedido em [Shopping do Futuro]({{ route('home') }}).
+Rastreie seu pedido em [Verify Email]({{ route('home') }}).
 Ou clique no botão abaixo.
 
 @component('mail::button', ['url' => 'http://127.0.0.1:8000/user/orders' ])

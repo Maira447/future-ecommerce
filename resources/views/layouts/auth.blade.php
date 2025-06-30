@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/auth.css') }}">
 
-    <title>Shopping do Futuro</title>
+    <title>Online Shopping</title>
 </head>
 <body>
     <main>

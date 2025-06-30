@@ -5,16 +5,16 @@
     
     
         @if (! $orders->isEmpty())
-        <h2>Meus pedidos</h2>
+        <h2>View Order Details</h2>
         <div style="overflow-x: auto">
             <table style="width: 100%;min-width:450px" cellspacing="0">
                 <thead>
                     <tr>
-                        <td>Id do pedido</td>
-                        <td>Data</td>
-                        <td>Preço</td>
+                        <td>Orders ID</td>
+                        <td>Date</td>
+                        <td>Price</td>
                         <td>Status</td>
-                        <td>Detalhes</td>
+                        <td>Details</td>
                     </tr>
                 </thead>
                 @foreach ($orders as $order)
@@ -29,7 +29,7 @@
             </table>
         </div>
         @else
-            <h3 class="message">Sem pedidos ainda <a href="{{ route('shop') }}">Compre agora</a></h3 >
+            <h3 class="message">No orders yet. <a href="{{ route('shop') }}">Shop now </a></h3 >
         @endif
     {{--------------------- 
         $slot 

@@ -13,7 +13,7 @@
 
 
     <link rel="shortcut icon" href="{{ asset('img/logo.png') }}" />
-    <title>Shopping do Futuro</title>
+    <title>Online Shopping</title>
 
     <script src="{{ asset('js/utilities.js') }}" defer></script>
     {{ $js ?? '' }}
@@ -28,7 +28,7 @@
         <div class="site-info">
             <a class="logo-link d-b" href="#"><img class="d-b" src="{{ asset('img/logo.png') }}"
                     alt="logo"></a>
-            <p>Projeto para portfolio pessoal apenas para via de estudos. NÃO COMERCIALIZE!</p>
+            <p></p>
         </div>
     </footer>
 </body>

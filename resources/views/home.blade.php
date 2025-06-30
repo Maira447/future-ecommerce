@@ -85,11 +85,10 @@
             <div class="row">
                 <div class="col-md-8 col-xl-6 text-center text-md-left">
                 <div class="jumbotron-custom wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
-                    <div class="text-1">Shopping online</div>
-                    <div class="text-2">do</div>
-                    <div class="title">Futuro</div>
+                   
+                    <div class="title">Deliver With Confidence</div>
                     <br>
-                    <p class="big">Compre seus terrenos e avatares no Metaverso exclusivamente por um único Hub.</p>
+                    <p class="big">Highly Established Eco friendly Smart Boxes , keep your food warm and fresh.</p>
                 </div>
                 </div>
             </div>
@@ -98,14 +97,14 @@
     </section>
 
     <section class="featured-products _container">
-        <h2 style="font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">Produtos a venda</h2>
+        <h2 style="font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">Delivery Boxes</h2>
         <div class="home-grid">
             @each('components.product', $products, 'product')
         </div>
-        <a href="{{ route('shop') }}" class="cta">Ver mais produtos</a>
+        <a href="{{ route('shop') }}" class="cta">View More Products</a>
     </section>
     <section class="categories _container">
-        <h2 style="font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">Categorias</h2>
+        <h2 style="font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">Categories</h2>
         <div class="home-grid">
             @each('components.category', $categories, 'cate')
         </div>

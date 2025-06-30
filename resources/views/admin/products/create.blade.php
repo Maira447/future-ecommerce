@@ -31,11 +31,11 @@
 
                 Informações: <input type="text" name="about" value="{{ old('about') }}" required><br><br>
 
-                Preço: <input type="number" name="price" min="0" value="{{ old('price') }}" required><br><br>
+                Price: <input type="number" name="price" min="0" value="{{ old('price') }}" required><br><br>
 
-                Quantidade em estoque: <input type="number" min="0" name="stock_quantity" value="{{ old('stock_quantity') }}" required><br><br>
+                Quantity: <input type="number" min="0" name="stock_quantity" value="{{ old('stock_quantity') }}" required><br><br>
 
-                Desconto (%): <input type="number" min="0" value="{{ old('discount') }}" name="discount" step="5"><br><br>
+                Discount (%): <input type="number" min="0" value="{{ old('discount') }}" name="discount" step="5"><br><br>
 
                 <input type="submit" value="Criar produto">
             </form>

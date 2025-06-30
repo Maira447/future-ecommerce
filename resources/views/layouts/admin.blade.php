@@ -13,7 +13,7 @@
         {{ $style }}
 
     <link rel="shortcut icon" href="{{ asset('img/logo.png') }}" />
-    <title>Shopping do Futuro</title>
+    <title>Online Shopping</title>
 
     <!-- scripts -->
     <script src="{{ asset('js/admin/utilities.js') }}" defer></script>        
@@ -69,7 +69,7 @@
                     <li class="list_item">
                         <a class="flex_align" href="{{ route('admin.transactions.index') }}">
                             <span class="material-icons">paid</span>
-                            <div>Transações</div>
+                            <div>Transactions</div>
                         </a>
                     </li>
                 </ul>
@@ -80,18 +80,18 @@
                     <li class="list_item">
                         <a class="flex_align" href="{{ route('admin.customers') }}">
                             <span class="material-icons">people</span>
-                            <div>Usuários</div>
+                            <div>Users</div>
                         </a>
                     </li>
                     <li class="list_item has-sub">
                         <a class="flex_align" href="#">
                             <span class="material-icons">shopping_bag</span>
-                            <div>Produtos</div>
+                            <div>Products</div>
                             <span class="arrow material-icons">arrow_drop_down</span>
                         </a>
                         <div class="products sub">
-                            <a href="{{ route('admin.products.index') }}">Ver</a>
-                            <a href="{{ route('admin.products.create') }}">Criar</a>
+                            <a href="{{ route('admin.products.index') }}">View</a>
+                            <a href="{{ route('admin.products.create') }}">Create</a>
                         </div>
                     </li>
                     <li class="list_item has-sub">
@@ -101,14 +101,14 @@
                             <span class="arrow material-icons">arrow_drop_down</span>
                         </a>
                         <div class="categories sub">
-                            <a href="{{ route('admin.categories.index') }}">Ver</a>
-                            <a href="{{ route('admin.categories.create') }}">Criar</a>
+                            <a href="{{ route('admin.categories.index') }}">View</a>
+                            <a href="{{ route('admin.categories.create') }}">Create</a>
                         </div>
                     </li>
                     <li class="list_item">
                         <a class="flex_align" href="{{ route('admin.orders.index') }}">
                             <span class="material-icons">shopping_cart</span>
-                            <div>Pedidos</div>
+                            <div>Orders</div>
                         </a>
                     </li>
                 </ul>

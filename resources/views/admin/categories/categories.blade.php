@@ -18,7 +18,7 @@
             <table style="width: 100%;min-width:450px" class="card">
                 <thead>
                     <tr>
-                        <td colspan="2">Categoria ({{count($categories)}})</td>
+                        <td colspan="2">Categories({{count($categories)}})</td>
                         <td colspan="2">Ações</td>
                     </tr>
                 </thead>
@@ -50,9 +50,9 @@
             <p>Sem categorias criadas ainda <a href="{{ route('admin.categories.create') }}">CRIAR</a></p>
         @endif
     </div>
-    <x-modal title="Deletar categoria" ok="DELETAR">
+    <x-modal title="Deletar categories" ok="DELETAR">
         <x-slot name="description">
-            Você tem certeza que deseja deletar essa categoria?
+            Do you want to delete the category?
         </x-slot>
     </x-modal>
 </x-admin-layout>

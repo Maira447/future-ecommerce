@@ -2,7 +2,7 @@
     <nav class="flex_align _container">
         <a class="logo-link d-b" href="{{ route('home') }}"><img class="d-b" style="width:50%" src="{{ asset('img/logo.png') }}" alt="logo"></a>
         <form class="ml-auto one-form" action="{{ route('shop') }}" method="GET">
-            <input type="search" name="search" placeholder="Busque por produtos..." value="{{ $search ?? '' }}">
+            <input type="search" name="search" placeholder="" value="{{ $search ?? '' }}">
             <button type="submit">
                 <i class="material-icons">search</i>
             </button>

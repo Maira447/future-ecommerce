@@ -2,13 +2,13 @@
     {{--------------------- 
         $slot 
     --------------------}}
-    <h3>Seu endereço</h3>
+    <h3>Your Address</h3>
         @if ($address = auth()->user()->addresses()->first())
             <div class="details_card">
-                <strong><b>Endereço</b>: </strong><span>{{$address->address_line}}</span><br>
-                <strong><b>Cidade</b>: </strong><span>{{$address->city}}</span><br>
-                <strong><b>CEP</b>: </strong><span>{{$address->postal_code}}</span><br>
-                <strong><b>País</b>: </strong><span>{{$address->country}}</span><br>
+                <strong><b>Address</b>: </strong><span>{{$address->address_line}}</span><br>
+                <strong><b>City</b>: </strong><span>{{$address->city}}</span><br>
+                <strong><b>Zip Code</b>: </strong><span>{{$address->postal_code}}</span><br>
+                <strong><b>Country</b>: </strong><span>{{$address->country}}</span><br>
             </div><br><br>
         @else
             <form action="{{ route('fake_addr') }}" method="post">
@@ -17,16 +17,16 @@
             </form>
         @endif
     <hr>    
-    <h3>Informações para pagamentos</h3>
+    <h3>Payment Informations</h3>
         @if ($payment = auth()->user()->payments()->first())
         <div class="details_card">
-            <strong>Bandeira do cartão: </strong><span>{{$payment->card_type}}</span><br>
-            <strong>Número do cartão: </strong><span>************{{ substr($payment->card_number, -4) }}</span><br>
+            <strong>Card Brand: </strong><span>{{$payment->card_type}}</span><br>
+            <strong>Card Number: </strong><span>************{{ substr($payment->card_number, -4) }}</span><br>
         </div>
         @else
             <form action="{{ route('fake_pay') }}" method="post">
                 @csrf
-                <input type="submit" value="Gerar detalhes de pagamento falsos">
+                <input type="submit" value="No payment method saved">
             </form>
         @endif
     {{--------------------- 
